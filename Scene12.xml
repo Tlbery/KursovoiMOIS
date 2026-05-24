@@ -7,8 +7,8 @@
 	<attribute name="Elapsed Time" value="567.573" />
 	<attribute name="Next Replicated Node ID" value="4" />
 	<attribute name="Next Replicated Component ID" value="5" />
-	<attribute name="Next Local Node ID" value="16812128" />
-	<attribute name="Next Local Component ID" value="16812335" />
+	<attribute name="Next Local Node ID" value="16822382" />
+	<attribute name="Next Local Component ID" value="16822608" />
 	<attribute name="Variables" />
 	<attribute name="Variable Names" value="" />
 	<component type="Octree" id="1" />
@@ -125,45 +125,6 @@
 			</component>
 		</node>
 	</node>
-	<node id="16779306">
-		<attribute name="Is Enabled" value="true" />
-		<attribute name="Name" value="svaya1" />
-		<attribute name="Tags" />
-		<attribute name="Position" value="-11.2478 -4.29831 27.637" />
-		<attribute name="Rotation" value="0.92388 0 0.382683 0" />
-		<attribute name="Scale" value="1 0.3 1" />
-		<attribute name="Variables" />
-		<component type="StaticModel" id="16779419">
-			<attribute name="Model" value="Model;Models/Box.mdl" />
-			<attribute name="Material" value="Material;CustomResources/Beton.xml" />
-		</component>
-		<component type="RigidBody" id="16779421">
-			<attribute name="Physics Rotation" value="0.92388 0 0.382683 0" />
-			<attribute name="Physics Position" value="-11.2478 -4.29831 27.637" />
-		</component>
-		<component type="CollisionShape" id="16779422" />
-		<node id="16779307">
-			<attribute name="Is Enabled" value="true" />
-			<attribute name="Name" value="" />
-			<attribute name="Tags" />
-			<attribute name="Position" value="0.00103927 -4.54667 -0.00260401" />
-			<attribute name="Rotation" value="1 0 0 0" />
-			<attribute name="Scale" value="1 10 1" />
-			<attribute name="Variables" />
-			<component type="StaticModel" id="16779420">
-				<attribute name="Model" value="Model;Models/Cylinder.mdl" />
-				<attribute name="Material" value="Material;CustomResources/Beton.xml" />
-			</component>
-			<component type="RigidBody" id="16779429">
-				<attribute name="Physics Rotation" value="0.92388 0 0.382683 0" />
-				<attribute name="Physics Position" value="-11.2489 -5.66231 27.6344" />
-			</component>
-			<component type="CollisionShape" id="16779430">
-				<attribute name="Shape Type" value="TriangleMesh" />
-				<attribute name="Model" value="Model;Models/Cylinder.mdl" />
-			</component>
-		</node>
-	</node>
 	<node id="16779315">
 		<attribute name="Is Enabled" value="true" />
 		<attribute name="Name" value="Pja1" />
@@ -222,152 +183,6 @@
 		</component>
 		<component type="CollisionShape" id="16779460">
 			<attribute name="Shape Type" value="Sphere" />
-		</component>
-	</node>
-	<node id="16779325">
-		<attribute name="Is Enabled" value="true" />
-		<attribute name="Name" value="Ploskaye Dno" />
-		<attribute name="Tags" />
-		<attribute name="Position" value="4.67495 -8.8576 -62.4942" />
-		<attribute name="Rotation" value="1 0 0 0" />
-		<attribute name="Scale" value="15 3 15" />
-		<attribute name="Variables" />
-		<component type="StaticModel" id="16779467">
-			<attribute name="Model" value="Model;Models/Sphere.mdl" />
-			<attribute name="Material" value="Material;CustomResources/Kamen.xml" />
-		</component>
-		<component type="RigidBody" id="16779479">
-			<attribute name="Physics Position" value="4.67495 -8.8576 -62.4942" />
-		</component>
-		<component type="CollisionShape" id="16779480">
-			<attribute name="Shape Type" value="TriangleMesh" />
-			<attribute name="Model" value="Model;Models/Sphere.mdl" />
-		</component>
-	</node>
-	<node id="16779326">
-		<attribute name="Is Enabled" value="true" />
-		<attribute name="Name" value="Kamen1" />
-		<attribute name="Tags" />
-		<attribute name="Position" value="9.71572 -8.36225 -36.428" />
-		<attribute name="Rotation" value="0.999048 0 0 0.0436194" />
-		<attribute name="Scale" value="5 2 2" />
-		<attribute name="Variables" />
-		<component type="StaticModel" id="16779468">
-			<attribute name="Model" value="Model;Models/Sphere.mdl" />
-			<attribute name="Material" value="Material;CustomResources/Kamen.xml" />
-		</component>
-		<component type="RigidBody" id="16779473">
-			<attribute name="Physics Rotation" value="0.999048 0 0 0.0436194" />
-			<attribute name="Physics Position" value="9.71572 -8.36225 -36.428" />
-		</component>
-		<component type="CollisionShape" id="16779474">
-			<attribute name="Shape Type" value="TriangleMesh" />
-			<attribute name="Model" value="Model;Models/Sphere.mdl" />
-		</component>
-	</node>
-	<node id="16779327">
-		<attribute name="Is Enabled" value="true" />
-		<attribute name="Name" value="Kamen2" />
-		<attribute name="Tags" />
-		<attribute name="Position" value="0.67838 -6.27807 -30.805" />
-		<attribute name="Rotation" value="0.529916 0.756797 -0.313476 0.219498" />
-		<attribute name="Scale" value="5 2 2" />
-		<attribute name="Variables" />
-		<component type="StaticModel" id="16779469">
-			<attribute name="Model" value="Model;Models/Sphere.mdl" />
-			<attribute name="Material" value="Material;CustomResources/Kamen.xml" />
-		</component>
-		<component type="RigidBody" id="16779475">
-			<attribute name="Physics Rotation" value="0.529916 0.756798 -0.313476 0.219498" />
-			<attribute name="Physics Position" value="0.67838 -6.27807 -30.805" />
-		</component>
-		<component type="CollisionShape" id="16779476">
-			<attribute name="Shape Type" value="TriangleMesh" />
-			<attribute name="Model" value="Model;Models/Sphere.mdl" />
-		</component>
-	</node>
-	<node id="16779328">
-		<attribute name="Is Enabled" value="true" />
-		<attribute name="Name" value="Kamen3" />
-		<attribute name="Tags" />
-		<attribute name="Position" value="-11.9995 -4.29206 -30.3579" />
-		<attribute name="Rotation" value="0.92388 0 0 0.382683" />
-		<attribute name="Scale" value="5 2 2" />
-		<attribute name="Variables" />
-		<component type="StaticModel" id="16779470">
-			<attribute name="Model" value="Model;Models/Sphere.mdl" />
-			<attribute name="Material" value="Material;CustomResources/Kamen.xml" />
-		</component>
-		<component type="RigidBody" id="16779477">
-			<attribute name="Physics Rotation" value="0.92388 0 0 0.382683" />
-			<attribute name="Physics Position" value="-11.9995 -4.29206 -30.3579" />
-		</component>
-		<component type="CollisionShape" id="16779478">
-			<attribute name="Shape Type" value="TriangleMesh" />
-			<attribute name="Model" value="Model;Models/Sphere.mdl" />
-		</component>
-	</node>
-	<node id="16779329">
-		<attribute name="Is Enabled" value="true" />
-		<attribute name="Name" value="Kamen4" />
-		<attribute name="Tags" />
-		<attribute name="Position" value="-3.55252 -6.64215 -36.9986" />
-		<attribute name="Rotation" value="0.92388 0 0 0.382683" />
-		<attribute name="Scale" value="5 2 2" />
-		<attribute name="Variables" />
-		<component type="StaticModel" id="16779471">
-			<attribute name="Model" value="Model;Models/Sphere.mdl" />
-			<attribute name="Material" value="Material;CustomResources/Kamen.xml" />
-		</component>
-		<component type="RigidBody" id="16779481">
-			<attribute name="Physics Rotation" value="0.92388 0 0 0.382683" />
-			<attribute name="Physics Position" value="-3.55252 -6.64215 -36.9986" />
-		</component>
-		<component type="CollisionShape" id="16779482">
-			<attribute name="Shape Type" value="TriangleMesh" />
-			<attribute name="Model" value="Model;Models/Sphere.mdl" />
-		</component>
-	</node>
-	<node id="16779330">
-		<attribute name="Is Enabled" value="true" />
-		<attribute name="Name" value="Kamennaya Ctena" />
-		<attribute name="Tags" />
-		<attribute name="Position" value="1.29434 -6.61274 -43.7799" />
-		<attribute name="Rotation" value="0.928995 0.120922 0.209444 -0.280141" />
-		<attribute name="Scale" value="10 3 10" />
-		<attribute name="Variables" />
-		<component type="StaticModel" id="16779472">
-			<attribute name="Model" value="Model;Models/Sphere.mdl" />
-			<attribute name="Material" value="Material;CustomResources/Kamen.xml" />
-		</component>
-		<component type="RigidBody" id="16779483">
-			<attribute name="Physics Rotation" value="0.928995 0.120922 0.209444 -0.280141" />
-			<attribute name="Physics Position" value="1.29434 -6.61274 -43.7799" />
-		</component>
-		<component type="CollisionShape" id="16779484">
-			<attribute name="Shape Type" value="TriangleMesh" />
-			<attribute name="Model" value="Model;Models/Sphere.mdl" />
-		</component>
-	</node>
-	<node id="16779336">
-		<attribute name="Is Enabled" value="true" />
-		<attribute name="Name" value="Pokrichka1" />
-		<attribute name="Tags" />
-		<attribute name="Position" value="8.16103 -6.76605 -20.2594" />
-		<attribute name="Rotation" value="0.923879 0 0 0.382684" />
-		<attribute name="Scale" value="3 3 3" />
-		<attribute name="Variables" />
-		<component type="StaticModel" id="16779520">
-			<attribute name="Model" value="Model;Models/Torus.mdl" />
-			<attribute name="Material" value="Material;CustomResources/Rezina.xml" />
-		</component>
-		<component type="CollisionShape" id="16779521">
-			<attribute name="Shape Type" value="TriangleMesh" />
-			<attribute name="Model" value="Model;Models/Torus.mdl" />
-		</component>
-		<component type="RigidBody" id="16779522">
-			<attribute name="Physics Rotation" value="0.923879 0 0 0.382684" />
-			<attribute name="Physics Position" value="8.16103 -6.76605 -20.2594" />
 		</component>
 	</node>
 	<node id="16779342">
@@ -433,26 +248,6 @@
 			<attribute name="Physics Position" value="-0.404938 -1.88446 -0.830097" />
 		</component>
 	</node>
-	<node id="16779345">
-		<attribute name="Is Enabled" value="true" />
-		<attribute name="Name" value="Bochka1" />
-		<attribute name="Tags" />
-		<attribute name="Position" value="9.69819 -8.48206 -21.1821" />
-		<attribute name="Rotation" value="0.397131 0.309975 0.851651 0.144544" />
-		<attribute name="Scale" value="2 3 2" />
-		<attribute name="Variables" />
-		<component type="StaticModel" id="16779532">
-			<attribute name="Model" value="Model;Models/Cylinder.mdl" />
-			<attribute name="Material" value="Material;CustomResources/Pja.xml" />
-		</component>
-		<component type="CollisionShape" id="16779533">
-			<attribute name="Shape Type" value="Cylinder" />
-		</component>
-		<component type="RigidBody" id="16779534">
-			<attribute name="Physics Rotation" value="0.397131 0.309975 0.851651 0.144544" />
-			<attribute name="Physics Position" value="9.69819 -8.48206 -21.1821" />
-		</component>
-	</node>
 	<node id="16779346">
 		<attribute name="Is Enabled" value="true" />
 		<attribute name="Name" value="Bochka2" />
@@ -471,26 +266,6 @@
 		<component type="RigidBody" id="16779537">
 			<attribute name="Physics Rotation" value="0.512501 0.255116 -0.0491946 0.818437" />
 			<attribute name="Physics Position" value="-2.76861 -2.05403 2.49907" />
-		</component>
-	</node>
-	<node id="16779347">
-		<attribute name="Is Enabled" value="true" />
-		<attribute name="Name" value="Bochka3" />
-		<attribute name="Tags" />
-		<attribute name="Position" value="9.99518 -6.66736 -24.806" />
-		<attribute name="Rotation" value="0.397131 0.309975 0.851651 0.144544" />
-		<attribute name="Scale" value="2 3 2" />
-		<attribute name="Variables" />
-		<component type="StaticModel" id="16779538">
-			<attribute name="Model" value="Model;Models/Cylinder.mdl" />
-			<attribute name="Material" value="Material;CustomResources/Pja.xml" />
-		</component>
-		<component type="CollisionShape" id="16779539">
-			<attribute name="Shape Type" value="Cylinder" />
-		</component>
-		<component type="RigidBody" id="16779540">
-			<attribute name="Physics Rotation" value="0.397131 0.309975 0.851651 0.144544" />
-			<attribute name="Physics Position" value="9.99518 -6.66736 -24.806" />
 		</component>
 	</node>
 	<node id="16779348">
@@ -557,6 +332,146 @@
 			</component>
 			<component type="CollisionShape" id="16812334">
 				<attribute name="Shape Type" value="Terrain" />
+			</component>
+		</node>
+	</node>
+	<node id="16817249">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="Trava1" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="1.85541 10.3681 9.42095" />
+		<attribute name="Rotation" value="0.714968 -0.699147 0 0" />
+		<attribute name="Scale" value="3 3 4" />
+		<attribute name="Variables" />
+		<node id="16817250">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="Pol1" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-0.408984 1.93499 -2.7909" />
+			<attribute name="Rotation" value="0.707083 -0.00791697 -0.00791652 -0.707042" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<component type="StaticModel" id="16817468">
+				<attribute name="Model" value="Model;Models/Plane.mdl" />
+				<attribute name="Material" value="Material;CustomResources/Grass.xml" />
+			</component>
+		</node>
+		<node id="16817251">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="Pol2" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-0.408952 1.93486 -2.79086" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<component type="StaticModel" id="16817469">
+				<attribute name="Model" value="Model;Models/Plane.mdl" />
+				<attribute name="Material" value="Material;CustomResources/Grass.xml" />
+			</component>
+		</node>
+	</node>
+	<node id="16817252">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="Trava2" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="1.1124 4.41131 0.977114" />
+		<attribute name="Rotation" value="0.714968 -0.699147 0 0" />
+		<attribute name="Scale" value="2 2 2" />
+		<attribute name="Variables" />
+		<node id="16817253">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="Pol1" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-0.408984 1.93499 -2.7909" />
+			<attribute name="Rotation" value="0.707083 -0.00791697 -0.00791652 -0.707042" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<component type="StaticModel" id="16817470">
+				<attribute name="Model" value="Model;Models/Plane.mdl" />
+				<attribute name="Material" value="Material;CustomResources/Grass.xml" />
+			</component>
+		</node>
+		<node id="16817254">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="Pol2" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-0.408952 1.93486 -2.79086" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<component type="StaticModel" id="16817471">
+				<attribute name="Model" value="Model;Models/Plane.mdl" />
+				<attribute name="Material" value="Material;CustomResources/Grass.xml" />
+			</component>
+		</node>
+	</node>
+	<node id="16817255">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="Trava3" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="4.25351 7.77107 6.89515" />
+		<attribute name="Rotation" value="0.714968 -0.699147 0 0" />
+		<attribute name="Scale" value="3 3 3" />
+		<attribute name="Variables" />
+		<node id="16817256">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="Pol1" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-0.408984 1.93499 -2.7909" />
+			<attribute name="Rotation" value="0.707083 -0.00791697 -0.00791652 -0.707042" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<component type="StaticModel" id="16817472">
+				<attribute name="Model" value="Model;Models/Plane.mdl" />
+				<attribute name="Material" value="Material;CustomResources/Grass.xml" />
+			</component>
+		</node>
+		<node id="16817257">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="Pol2" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-0.408952 1.93486 -2.79086" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<component type="StaticModel" id="16817473">
+				<attribute name="Model" value="Model;Models/Plane.mdl" />
+				<attribute name="Material" value="Material;CustomResources/Grass.xml" />
+			</component>
+		</node>
+	</node>
+	<node id="16817258">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="Trava4" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="5.10278 1.18772 -2.946" />
+		<attribute name="Rotation" value="0.714968 -0.699147 0 0" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables" />
+		<node id="16817259">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="Pol1" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-0.408984 1.93499 -2.7909" />
+			<attribute name="Rotation" value="0.707083 -0.00791697 -0.00791652 -0.707042" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<component type="StaticModel" id="16817474">
+				<attribute name="Model" value="Model;Models/Plane.mdl" />
+				<attribute name="Material" value="Material;CustomResources/Grass.xml" />
+			</component>
+		</node>
+		<node id="16817260">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="Pol2" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-0.408952 1.93486 -2.79086" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<component type="StaticModel" id="16817475">
+				<attribute name="Model" value="Model;Models/Plane.mdl" />
+				<attribute name="Material" value="Material;CustomResources/Grass.xml" />
 			</component>
 		</node>
 	</node>
